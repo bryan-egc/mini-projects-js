@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(169, 227, 225);
+}
+
+.card {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 50px 20px 0 20px;
+  box-sizing: border-box;
+  background-color: rgb(239, 242, 123);
+  background: radial-gradient(
+    circle,
+    rgba(0, 114, 255, 1) 1% rgba(33, 25, 173, 1) 100%
+  );
+  margin: 150px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card input {
+  font-size: 28px;
+  padding: 10px;
+  border: solid 1px rgb(45, 154, 226);
+  color: #7B7BF2;
+  border-radius: 5px;
+  background-color: transparent;
+  margin: 5px 0;
+  outline: none;
+}
+
+.holder {
+  color: #7B7BF2;
+  font-weight: bold;
+  font-size: 28px;
+  padding-top: 50px;
+}
+
+.card #inputDate {
+  width: 80px;
+}
+
+.card #inputCVV {
+  width: 50px;
+}
